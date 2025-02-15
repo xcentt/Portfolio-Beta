@@ -1,0 +1,233 @@
+.titulo{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    border: rgb(245, 235, 223) solid 2px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    border: rgb(245, 235, 223) solid 2px;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.link{
+    display: flex;
+    padding: 5px 20px;
+    font-size: large;
+    color:rgb(255, 250, 250);
+    text-decoration: none;
+    outline: rgb(247, 215, 168) solid 2px;
+    background-color: rgb(185, 136, 76);
+    margin: 5px;
+    font-style: oblique;
+    border-radius: 10px;
+    box-shadow: -5px 5px rgba(202, 197, 164, 0.918);
+}
+
+.link:hover {
+    background-color: rgba(255, 219, 16, 0.918);
+    color:rgb(0, 0, 0);
+}
+
+.cabecera{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+.qpaja{
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: xx-large;
+    width: 300px;
+    height: 300px;
+}
+
+
+.vidio{
+    display: flex;
+    width: auto;
+    height: auto;
+    overflow:hidden;
+}
+
+
+.experienciayproyectos{
+    text-decoration: none;
+    display: grid;
+    justify-content: space-around;
+    font-style: oblique;
+    color: rgb(75, 65, 85);
+    
+}
+
+.experienciayproyectos h2,ul,h3{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: x-large;
+    
+}
+
+.proyectinhos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.proyectinhos section{
+    padding: 20px;
+    left: auto;
+    right: auto;
+    margin: 2px;
+
+
+}
+
+.experienciayproyectos aside{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
+
+a.imagen1, a.imagen2, a.imagen3{
+    display: flex;
+    justify-content: center;
+}
+
+
+p{
+    font-size: larger;
+}
+
+
+.preguntasfrec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: oblique;
+    color: rgb(75, 65, 85);
+    max-width: 800px;
+    margin: 1px auto 10px auto;
+    padding: 2rem;
+    
+}
+
+
+.preguntasfrec h2{
+    margin-bottom: 50px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.preguntasfrec details{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 3px solid rgb(75, 65, 85);
+    border-radius: 10px;
+    color: #364f6b;
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+}
+
+.preguntasfrec summary {  
+    font-size: 1.35rem;
+    cursor: pointer;
+    list-style: none;
+}
+
+.preguntasfrec details:hover,
+details[open] {
+  box-shadow: 10px 10px 20px #d9d9d9;
+}
+
+.preguntasfrec p{
+    border-left: 3px solid rgba(255, 219, 16, 0.918);
+    font-size: 1.10rem;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(255, 232, 201);
+
+}
+
+
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TituloForm{
+    font-style: oblique;
+    color: rgb(75, 65, 85);
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.fieldset{
+    border: rgb(75, 65, 85) solid;
+    border-width: 0px;
+    margin: 10px;
+}
+
+.formulariov2{
+    display: flex;
+    justify-content: center;
+    color: rgb(75, 65, 85);
+    font-style: oblique;
+    font-size: 1.4rem;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    border: rgb(75, 65, 85) solid;
+    color: rgb(75, 65, 85);
+    padding: 1rem;
+    font-style: oblique;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    margin-bottom: 25px;
+
+}
+
+.info input{
+    border-radius: 10px;
+    color: #364f6b;
+    border-color: #364f6b;
+    margin-left: 5px;
+    font-size: 0.9rem;
+    padding: 3px;
+}
+
+.info label{
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    color: #364f6b;
+    font-size: 1.2rem;
+    position: relative;
+}
+.info select, option{
+    margin-bottom: 10px;
+    border: 2px solid rgb(75, 65, 85);
+    border-radius: 10px;
+    color: #364f6b;
+    font-size: 0.9rem;
+    position: relative;
+    padding: 5px;
+}
