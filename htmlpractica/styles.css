@@ -5,7 +5,7 @@
     flex-direction: column;
     border: rgb(245, 235, 223) solid 2px;
 }
-<!--nose-->
+
 nav{
     display: flex;
     flex-direction: row;
